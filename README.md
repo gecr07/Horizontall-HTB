@@ -26,7 +26,7 @@ Ejecutamos comandos.
 
 ## Priv escalation
 
-Nos damos cuenta que existen puertos abietos en escucha uno de esos es el 8000 nos lo traemos ya sea con chisel o con ssh.
+Nos damos cuenta que existen puertos abietos en escucha uno de esos es el 8000 nos lo traemos ya sea con chisel o con ssh -L.
 
 ![image](https://github.com/gecr07/Horizontall-HTB/assets/63270579/0210626f-6103-4d1a-ab45-93385290d93d)
 
@@ -34,6 +34,11 @@ Nos damos cuenta que existen puertos abietos en escucha uno de esos es el 8000 n
 ss -ntln
 
 ```
+
+Si nos traemo ese puerto 8000 es un Laravel de version vulnerable y esa es la escalada (omito un poco de detalles). Se puede tanto con el chisel como con el ssh.
+
+![image](https://github.com/gecr07/Horizontall-HTB/assets/63270579/fccfecf7-0fcf-4efd-92f1-b235e7ada59c)
+
 
 
 
